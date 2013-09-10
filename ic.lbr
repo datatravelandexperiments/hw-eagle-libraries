@@ -2118,7 +2118,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-ATMEGA32U4">
+<deviceset name="IC-ATMEGA32U4" prefix="U" uservalue="yes">
 <description>ATmega32U4</description>
 <gates>
 <gate name="G$1" symbol="IC-ATMEGA32U4" x="0" y="-2.54"/>
@@ -2406,7 +2406,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-MCP23017">
+<deviceset name="IC-MCP23017" prefix="U" uservalue="yes">
 <description>Microchip 16-bit I/O Expander
 &lt;p&gt;
 &lt;ul&gt;
@@ -2488,7 +2488,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-PCA9555">
+<deviceset name="IC-PCA9555" prefix="U" uservalue="yes">
 <description>NXP I²C 16-bit I/O Expander</description>
 <gates>
 <gate name="G$1" symbol="IC-PCA9555" x="0" y="0"/>
