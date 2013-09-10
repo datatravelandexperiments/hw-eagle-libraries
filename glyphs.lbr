@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="prix" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="test" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="GLYPH-DT&amp;E-100">
+<wire x1="1.190625" y1="1.190625" x2="1.190625" y2="-1.190625" width="0.15875" layer="21" curve="100"/>
+<wire x1="-1.190625" y1="-1.190625" x2="-1.190625" y2="1.190625" width="0.15875" layer="21" curve="100"/>
+<wire x1="0" y1="-1.190625" x2="0" y2="0.29765625" width="0.15875" layer="21"/>
+<wire x1="-0.5953125" y1="0.29765625" x2="0" y2="0.29765625" width="0.15875" layer="21"/>
+<circle x="0" y="0.89296875" radius="0.3048" width="0.127" layer="21"/>
+<wire x1="0" y1="0.29765625" x2="1.190625" y2="0.29765625" width="0.15875" layer="21"/>
+<wire x1="-1.190625" y1="-1.190625" x2="-1.190625" y2="0.29765625" width="0.15875" layer="21"/>
+</package>
+<package name="GLYPH-DT&amp;E-80">
+<wire x1="0.9525" y1="0.9525" x2="0.9525" y2="-0.9525" width="0.1524" layer="21" curve="100"/>
+<wire x1="-0.9525" y1="-0.9525" x2="-0.9525" y2="0.9525" width="0.1524" layer="21" curve="100"/>
+<wire x1="0" y1="-0.9525" x2="0" y2="0.238125" width="0.1524" layer="21"/>
+<wire x1="-0.47625" y1="0.238125" x2="0" y2="0.238125" width="0.1524" layer="21"/>
+<circle x="0" y="0.714375" radius="0.238125" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.238125" x2="0.9525" y2="0.238125" width="0.1524" layer="21"/>
+<wire x1="-0.9525" y1="-0.9525" x2="-0.9525" y2="0.238125" width="0.1524" layer="21"/>
+</package>
+<package name="GLYPH-DT&amp;E-50">
+<wire x1="0.5953125" y1="0.5953125" x2="0.5953125" y2="-0.5953125" width="0.1016" layer="21" curve="100"/>
+<wire x1="-0.5953125" y1="-0.5953125" x2="-0.5953125" y2="0.5953125" width="0.1016" layer="21" curve="100"/>
+<wire x1="0" y1="-0.5953125" x2="0" y2="0.148828125" width="0.1016" layer="21"/>
+<wire x1="-0.29765625" y1="0.148828125" x2="0" y2="0.148828125" width="0.1016" layer="21"/>
+<circle x="0" y="0.446484375" radius="0.1524" width="0.1016" layer="21"/>
+<wire x1="0" y1="0.148828125" x2="0.5953125" y2="0.148828125" width="0.1016" layer="21"/>
+<wire x1="-0.5953125" y1="-0.5953125" x2="-0.5953125" y2="0.148828125" width="0.1016" layer="21"/>
+</package>
+<package name="GLYPH-DT&amp;E-40">
+<wire x1="0.47625" y1="0.47625" x2="0.47625" y2="-0.47625" width="0.0762" layer="21" curve="100"/>
+<wire x1="-0.47625" y1="-0.47625" x2="-0.47625" y2="0.47625" width="0.0762" layer="21" curve="100"/>
+<wire x1="0" y1="-0.47625" x2="0" y2="0.1190625" width="0.0762" layer="21"/>
+<wire x1="-0.238125" y1="0.1190625" x2="0" y2="0.1190625" width="0.0762" layer="21"/>
+<circle x="0" y="0.3571875" radius="0.1190625" width="0.0762" layer="21"/>
+<wire x1="0" y1="0.1190625" x2="0.47625" y2="0.1190625" width="0.0762" layer="21"/>
+<wire x1="-0.47625" y1="-0.47625" x2="-0.47625" y2="0.1190625" width="0.0762" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GLYPH-ARROW-S0-00-0-1">
+<polygon width="0" layer="94">
+<vertex x="-0.3175" y="-0.9525"/>
+<vertex x="0" y="0"/>
+<vertex x="0.3175" y="-0.9525"/>
+</polygon>
+<wire x1="0" y1="-0.635" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-3.81" width="0.0508" layer="108"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S0-14-1-4">
+<polygon width="0" layer="94">
+<vertex x="-0.075890625" y="-1.00115"/>
+<vertex x="0" y="0"/>
+<vertex x="0.539975" y="-0.846453125"/>
+</polygon>
+<wire x1="0.15875" y1="-0.635" x2="0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.27" x2="0.9525" y2="-3.81" width="0.0508" layer="108"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S0-18-1-3">
+<polygon width="0" layer="94">
+<vertex x="0.0011375" y="-1.004021875"/>
+<vertex x="0" y="0"/>
+<vertex x="0.603325" y="-0.80253125"/>
+</polygon>
+<wire x1="0.15875" y1="-0.47625" x2="0.635" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="0.9525" x2="1.27" y2="-3.81" width="0.0508" layer="108"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S0-27-1-2">
+<polygon width="0" layer="94">
+<vertex x="0.140859375" y="-0.994090625"/>
+<vertex x="0" y="0"/>
+<vertex x="0.70914375" y="-0.71075625"/>
+</polygon>
+<wire x1="0.3175" y1="-0.635" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="1.905" y2="-3.81" width="0.0508" layer="108"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S0-34-2-3">
+<polygon width="0" layer="94">
+<vertex x="0.26434375" y="-0.968596875"/>
+<vertex x="0" y="0"/>
+<vertex x="0.792634375" y="-0.616271875"/>
+</polygon>
+<wire x1="0.3175" y1="-0.47625" x2="1.27" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0.9525" x2="2.54" y2="-3.81" width="0.0508" layer="108"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S0-37-3-4">
+<polygon width="0" layer="94">
+<vertex x="0.3163375" y="-0.952884375"/>
+<vertex x="0" y="0"/>
+<vertex x="0.8248" y="-0.57250625"/>
+</polygon>
+<wire x1="0.47625" y1="-0.635" x2="1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.9525" y1="1.27" x2="2.8575" y2="-3.81" width="0.0508" layer="108"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S0-45-1-1">
+<polygon width="0" layer="94">
+<vertex x="0.4490125" y="-0.898025"/>
+<vertex x="0" y="0"/>
+<vertex x="0.898025" y="-0.4490125"/>
+</polygon>
+<wire x1="0.635" y1="-0.635" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="-3.81" width="0.0508" layer="108"/>
+</symbol>
+<symbol name="GLYPH-ARROW-M0-00-0-1">
+<wire x1="0" y1="-0.635" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="-0.396875" y="-1.190625"/>
+<vertex x="0" y="0"/>
+<vertex x="0.396875" y="-1.190625"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-M0-14-1-4">
+<wire x1="0.15875" y1="-0.635" x2="0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.27" x2="0.9525" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="-0.0948625" y="-1.2514375"/>
+<vertex x="0" y="0"/>
+<vertex x="0.674971875" y="-1.05806875"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-M0-18-1-3">
+<wire x1="0.15875" y1="-0.47625" x2="0.635" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="0.9525" x2="1.27" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.001421875" y="-1.255028125"/>
+<vertex x="0" y="0"/>
+<vertex x="0.75415625" y="-1.003165625"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-M0-27-1-2">
+<wire x1="0.3175" y1="-0.635" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="1.905" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.176075" y="-1.242615625"/>
+<vertex x="0" y="0"/>
+<vertex x="0.88643125" y="-0.88844375"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-M0-34-2-3">
+<wire x1="0.3175" y1="-0.47625" x2="1.27" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0.9525" x2="2.54" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.330428125" y="-1.210746875"/>
+<vertex x="0" y="0"/>
+<vertex x="0.990790625" y="-0.770340625"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-M0-37-3-4">
+<wire x1="0.47625" y1="-0.635" x2="1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.9525" y1="1.27" x2="2.8575" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.395421875" y="-1.19110625"/>
+<vertex x="0" y="0"/>
+<vertex x="1.031" y="-0.71563125"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-M0-45-1-1">
+<wire x1="0.635" y1="-0.635" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.561265625" y="-1.12253125"/>
+<vertex x="0" y="0"/>
+<vertex x="1.12253125" y="-0.561265625"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-L0-00-0-1">
+<wire x1="0" y1="-0.635" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="-0.47625" y="-1.42875"/>
+<vertex x="0" y="0"/>
+<vertex x="0.47625" y="-1.42875"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-L0-14-1-4">
+<wire x1="0.15875" y1="-0.635" x2="0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.27" x2="0.9525" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="-0.113834375" y="-1.501725"/>
+<vertex x="0" y="0"/>
+<vertex x="0.809965625" y="-1.26968125"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-L0-18-1-3">
+<wire x1="0.15875" y1="-0.47625" x2="0.635" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="0.9525" x2="1.27" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.001709375" y="-1.50603125"/>
+<vertex x="0" y="0"/>
+<vertex x="0.9049875" y="-1.2038"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-L0-27-1-2">
+<wire x1="0.3175" y1="-0.635" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="1.905" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.211290625" y="-1.4911375"/>
+<vertex x="0" y="0"/>
+<vertex x="1.063715625" y="-1.066134375"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-L0-34-2-3">
+<wire x1="0.3175" y1="-0.47625" x2="1.27" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0.9525" x2="2.54" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.396515625" y="-1.452896875"/>
+<vertex x="0" y="0"/>
+<vertex x="1.18895" y="-0.924409375"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-L0-37-3-4">
+<wire x1="0.47625" y1="-0.635" x2="1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.9525" y1="1.27" x2="2.8575" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.47450625" y="-1.429328125"/>
+<vertex x="0" y="0"/>
+<vertex x="1.237203125" y="-0.858759375"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-L0-45-1-1">
+<wire x1="0.635" y1="-0.635" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.67351875" y="-1.3470375"/>
+<vertex x="0" y="0"/>
+<vertex x="1.3470375" y="-0.67351875"/>
+</polygon>
+</symbol>
+<symbol name="GLYPH-ARROW-L3-00-0-1">
+<wire x1="0" y1="-0.7112" x2="0" y2="-2.6162" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.1938" x2="0" y2="-3.8862" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="-0.47625" y="-1.50495"/>
+<vertex x="0" y="-0.0762"/>
+<vertex x="0.47625" y="-1.50495"/>
+</polygon>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-L3-14-1-4">
+<wire x1="0.15875" y1="-0.635" x2="0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.27" x2="0.9525" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="-0.095271875" y="-1.575628125"/>
+<vertex x="0.0185625" y="-0.073903125"/>
+<vertex x="0.828528125" y="-1.343584375"/>
+</polygon>
+<wire x1="-1.231734375" y1="-0.309390625" x2="1.231734375" y2="0.309390625" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-L3-18-1-3">
+<wire x1="0.3175" y1="-0.9525" x2="0.79375" y2="-2.38125" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="0.9525" x2="1.27" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.0258875" y="-1.57829375"/>
+<vertex x="0.024178125" y="-0.072259375"/>
+<vertex x="0.929165625" y="-1.2760625"/>
+</polygon>
+<wire x1="-1.20436875" y1="-0.402975" x2="1.20436875" y2="0.402975" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-L3-27-1-2">
+<wire x1="0.3175" y1="-0.635" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="1.905" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.245290625" y="-1.55933125"/>
+<vertex x="0.034" y="-0.06819375"/>
+<vertex x="1.097715625" y="-1.134328125"/>
+</polygon>
+<wire x1="-1.136565625" y1="-0.56666875" x2="1.136565625" y2="0.56666875" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-L3-34-2-4">
+<wire x1="0.3175" y1="-0.47625" x2="1.5875" y2="-2.38125" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0.9525" x2="2.54" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.43879375" y="-1.51629375"/>
+<vertex x="0.042278125" y="-0.06339375"/>
+<vertex x="1.23123125" y="-0.987803125"/>
+</polygon>
+<wire x1="-1.05658125" y1="-0.70465" x2="1.05658125" y2="0.70465" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-L3-37-3-4">
+<wire x1="0.426025" y1="-0.569478125" x2="1.5671625" y2="-2.094871875" width="0.1524" layer="94"/>
+<wire x1="-0.9525" y1="1.27" x2="2.8575" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.52015" y="-1.49034375"/>
+<vertex x="0.04564375" y="-0.061015625"/>
+<vertex x="1.282846875" y="-0.919775"/>
+</polygon>
+<wire x1="-1.016928125" y1="-0.760759375" x2="1.016928125" y2="0.760759375" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-L3-45-1-1">
+<wire x1="0.47625" y1="-0.47625" x2="1.905" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.7274" y="-1.40091875"/>
+<vertex x="0.05388125" y="-0.05388125"/>
+<vertex x="1.40091875" y="-0.7274"/>
+</polygon>
+<wire x1="-0.898025" y1="-0.898025" x2="0.898025" y2="0.898025" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-M3-00-0-1">
+<wire x1="0" y1="-0.7112" x2="0" y2="-2.6162" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.1938" x2="0" y2="-3.8862" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="-0.396875" y="-1.266825"/>
+<vertex x="0" y="-0.0762"/>
+<vertex x="0.396875" y="-1.266825"/>
+</polygon>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-M3-14-1-4">
+<wire x1="0.15875" y1="-0.635" x2="0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.27" x2="0.9525" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="-0.0763" y="-1.325340625"/>
+<vertex x="0.0185625" y="-0.073903125"/>
+<vertex x="0.693534375" y="-1.131971875"/>
+</polygon>
+<wire x1="-1.231734375" y1="-0.309390625" x2="1.231734375" y2="0.309390625" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-M3-18-1-3">
+<wire x1="0.3175" y1="-0.9525" x2="0.79375" y2="-2.38125" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="0.9525" x2="1.27" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.025603125" y="-1.3272875"/>
+<vertex x="0.024178125" y="-0.072259375"/>
+<vertex x="0.778334375" y="-1.075428125"/>
+</polygon>
+<wire x1="-1.20436875" y1="-0.402975" x2="1.20436875" y2="0.402975" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-M3-27-1-2">
+<wire x1="0.3175" y1="-0.635" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="1.905" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.210075" y="-1.310809375"/>
+<vertex x="0.034" y="-0.06819375"/>
+<vertex x="0.92043125" y="-0.9566375"/>
+</polygon>
+<wire x1="-1.136565625" y1="-0.56666875" x2="1.136565625" y2="0.56666875" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-M3-34-2-3">
+<wire x1="0.3175" y1="-0.47625" x2="1.5875" y2="-2.38125" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0.9525" x2="2.54" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.37270625" y="-1.27414375"/>
+<vertex x="0.042278125" y="-0.06339375"/>
+<vertex x="1.033071875" y="-0.833734375"/>
+</polygon>
+<wire x1="-1.05658125" y1="-0.70465" x2="1.05658125" y2="0.70465" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-M3-37-3-4">
+<wire x1="0.426025" y1="-0.569478125" x2="1.5671625" y2="-2.094871875" width="0.1524" layer="94"/>
+<wire x1="-0.9525" y1="1.27" x2="2.8575" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.441065625" y="-1.252121875"/>
+<vertex x="0.04564375" y="-0.061015625"/>
+<vertex x="1.076646875" y="-0.776646875"/>
+</polygon>
+<wire x1="-1.016928125" y1="-0.760759375" x2="1.016928125" y2="0.760759375" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-M3-45-1-1">
+<wire x1="0.47625" y1="-0.47625" x2="1.905" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="-3.81" width="0.0508" layer="108"/>
+<polygon width="0" layer="94">
+<vertex x="0.615146875" y="-1.1764125"/>
+<vertex x="0.05388125" y="-0.05388125"/>
+<vertex x="1.1764125" y="-0.615146875"/>
+</polygon>
+<wire x1="-0.898025" y1="-0.898025" x2="0.898025" y2="0.898025" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S3-00-0-1">
+<polygon width="0" layer="94">
+<vertex x="-0.3175" y="-1.0287"/>
+<vertex x="0" y="-0.0762"/>
+<vertex x="0.3175" y="-1.0287"/>
+</polygon>
+<wire x1="0" y1="-0.7112" x2="0" y2="-2.6162" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.1938" x2="0" y2="-3.8862" width="0.0508" layer="108"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S3-14-1-4">
+<polygon width="0" layer="94">
+<vertex x="-0.057325" y="-1.075053125"/>
+<vertex x="0.0185625" y="-0.073903125"/>
+<vertex x="0.558540625" y="-0.920359375"/>
+</polygon>
+<wire x1="0.15875" y1="-0.635" x2="0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.27" x2="0.9525" y2="-3.81" width="0.0508" layer="108"/>
+<wire x1="-1.231734375" y1="-0.309390625" x2="1.231734375" y2="0.309390625" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S3-18-1-3">
+<polygon width="0" layer="94">
+<vertex x="0.025315625" y="-1.076284375"/>
+<vertex x="0.024178125" y="-0.072259375"/>
+<vertex x="0.627503125" y="-0.87479375"/>
+</polygon>
+<wire x1="0.3175" y1="-0.9525" x2="0.79375" y2="-2.38125" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="0.9525" x2="1.27" y2="-3.81" width="0.0508" layer="108"/>
+<wire x1="-1.20436875" y1="-0.402975" x2="1.20436875" y2="0.402975" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S3-27-1-2">
+<polygon width="0" layer="94">
+<vertex x="0.174859375" y="-1.062284375"/>
+<vertex x="0.034" y="-0.06819375"/>
+<vertex x="0.74314375" y="-0.77895"/>
+</polygon>
+<wire x1="0.3175" y1="-0.635" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="1.905" y2="-3.81" width="0.0508" layer="108"/>
+<wire x1="-1.136565625" y1="-0.56666875" x2="1.136565625" y2="0.56666875" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S3-34-2-3">
+<polygon width="0" layer="94">
+<vertex x="0.306621875" y="-1.03199375"/>
+<vertex x="0.042278125" y="-0.06339375"/>
+<vertex x="0.8349125" y="-0.679665625"/>
+</polygon>
+<wire x1="0.3175" y1="-0.47625" x2="1.5875" y2="-2.38125" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0.9525" x2="2.54" y2="-3.81" width="0.0508" layer="108"/>
+<wire x1="-1.05658125" y1="-0.70465" x2="1.05658125" y2="0.70465" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S3-37-3-4">
+<polygon width="0" layer="94">
+<vertex x="0.36198125" y="-1.0139"/>
+<vertex x="0.04564375" y="-0.061015625"/>
+<vertex x="0.870446875" y="-0.633521875"/>
+</polygon>
+<wire x1="0.426025" y1="-0.569478125" x2="1.5671625" y2="-2.094871875" width="0.1524" layer="94"/>
+<wire x1="-0.9525" y1="1.27" x2="2.8575" y2="-3.81" width="0.0508" layer="108"/>
+<wire x1="-1.016928125" y1="-0.760759375" x2="1.016928125" y2="0.760759375" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-S3-45-1-1">
+<polygon width="0" layer="94">
+<vertex x="0.50289375" y="-0.95190625"/>
+<vertex x="0.05388125" y="-0.05388125"/>
+<vertex x="0.95190625" y="-0.50289375"/>
+</polygon>
+<wire x1="0.47625" y1="-0.47625" x2="1.905" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="-3.81" width="0.0508" layer="108"/>
+<wire x1="-0.898025" y1="-0.898025" x2="0.898025" y2="0.898025" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-ARROW-VARIABLE">
+<polygon width="0" layer="94">
+<vertex x="1.545909375" y="1.129140625"/>
+<vertex x="2.54" y="1.27"/>
+<vertex x="1.82924375" y="0.56085625"/>
+</polygon>
+<wire x1="1.905" y1="0.9525" x2="-1.905" y2="-0.9525" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-PRESET">
+<wire x1="1.74625" y1="0.873125" x2="-1.905" y2="-0.9525" width="0.1524" layer="94"/>
+<wire x1="1.984375" y1="0.47625" x2="1.5875" y2="1.27" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-CIRCLE-S0">
+<circle x="0" y="-0.3175" radius="0.3175" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-CIRCLE-M0">
+<circle x="0" y="-0.635" radius="0.635" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-CIRCLE-L0">
+<circle x="0" y="-0.9906" radius="0.9906" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-CIRCLE-S3">
+<circle x="0" y="-0.3937" radius="0.3175" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-CIRCLE-M3">
+<circle x="0" y="-0.7112" radius="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-CIRCLE-L3">
+<circle x="0" y="-1.0668" radius="0.9906" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-CIRCLE-S6">
+<circle x="0" y="-0.4699" radius="0.3175" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-CIRCLE-M6">
+<circle x="0" y="-0.7874" radius="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-CIRCLE-L6">
+<circle x="0" y="-1.143" radius="0.9906" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-LINE-DOTTED-25">
+<wire x1="0" y1="0" x2="0" y2="-0.0254" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.635" x2="0" y2="-0.6604" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-1.2954" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="-1.9304" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GLYPH-LINE-DOTTED-12">
+<wire x1="0" y1="0" x2="0" y2="-0.0254" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.635" x2="0" y2="-0.6604" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-1.2954" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="-1.9304" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.3175" x2="0" y2="-0.3429" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.9525" x2="0" y2="-0.9779" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.5875" x2="0" y2="-1.6129" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.2225" x2="0" y2="-2.2479" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>
