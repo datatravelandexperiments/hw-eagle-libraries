@@ -700,42 +700,6 @@
 <wire x1="-6.8" y1="-6.4" x2="-3.7" y2="-6.4" width="0.127" layer="51"/>
 <pad name="S2" x="2.5" y="4.5" drill="1.5"/>
 </package>
-<package name="SW-TACTILE-RA">
-<wire x1="-3.65" y1="2.73" x2="-3.35" y2="2.73" width="0.1524" layer="51"/>
-<wire x1="-2.64" y1="-0.08" x2="-2.64" y2="0.54" width="0.1524" layer="51"/>
-<wire x1="-2.64" y1="0.54" x2="-1.86" y2="0.54" width="0.1524" layer="51"/>
-<wire x1="-1.86" y1="0.54" x2="-1.86" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="-3.65" y1="-0.19775" x2="-3.65" y2="-3.52" width="0.1524" layer="21"/>
-<wire x1="-3.65" y1="-3.52" x2="-1.75" y2="-3.52" width="0.1524" layer="21"/>
-<wire x1="-1.75" y1="-3.52" x2="-1.75" y2="-4.42" width="0.1524" layer="21"/>
-<wire x1="3.65" y1="2.73" x2="3.35" y2="2.73" width="0.1524" layer="51"/>
-<wire x1="2.64" y1="-0.08" x2="2.64" y2="0.54" width="0.1524" layer="51"/>
-<wire x1="2.64" y1="0.54" x2="1.86" y2="0.54" width="0.1524" layer="51"/>
-<wire x1="1.86" y1="0.54" x2="1.86" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="3.65" y1="-0.19775" x2="3.65" y2="-3.52" width="0.1524" layer="21"/>
-<wire x1="3.65" y1="-3.52" x2="1.75" y2="-3.52" width="0.1524" layer="21"/>
-<wire x1="1.75" y1="-3.52" x2="-1.75" y2="-3.52" width="0.1524" layer="21"/>
-<wire x1="1.75" y1="-3.52" x2="1.75" y2="-4.42" width="0.1524" layer="21"/>
-<wire x1="1.75" y1="-4.42" x2="-1.75" y2="-4.42" width="0.1524" layer="21"/>
-<pad name="3" x="-3.5" y="1.23" drill="1.5"/>
-<pad name="4" x="3.5" y="1.23" drill="1.5"/>
-<pad name="1" x="-2.25" y="-1.27" drill="1"/>
-<pad name="2" x="2.25" y="-1.27" drill="1"/>
-<text x="-2.69875" y="2.69875" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
-<wire x1="-2.8125" y1="-0.08" x2="2.8125" y2="-0.08" width="0.1524" layer="21"/>
-<wire x1="-3.65" y1="-0.08" x2="-3.35" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="-3.35" y1="-0.08" x2="-2.64" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="-2.64" y1="-0.08" x2="-1.86" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="-1.86" y1="-0.08" x2="1.86" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="1.86" y1="-0.08" x2="2.64" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="2.64" y1="-0.08" x2="3.35" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="3.35" y1="-0.08" x2="3.65" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="-3.65" y1="-0.08" x2="-3.65" y2="2.73" width="0.1524" layer="51"/>
-<wire x1="-3.35" y1="-0.08" x2="-3.35" y2="2.73" width="0.1524" layer="51"/>
-<wire x1="3.65" y1="2.73" x2="3.65" y2="-0.08" width="0.1524" layer="51"/>
-<wire x1="3.35" y1="2.73" x2="3.35" y2="-0.08" width="0.1524" layer="51"/>
-</package>
 <package name="SW-CHERRY-MX-BREAKOUT-1">
 <description>Cherry MX mini breakout</description>
 <pad name="5" x="-7.62" y="-5.08" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
@@ -757,6 +721,105 @@
 <text x="-5.715" y="3.175" size="1.27" layer="27" font="vector" align="center-left">&gt;VALUE</text>
 <wire x1="-0.635" y1="-0.635" x2="1.905" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="0.635" y1="0.635" x2="0.635" y2="-1.905" width="0.127" layer="21"/>
+</package>
+<package name="SW-TACTILE-RA-PTH">
+<wire x1="-3.65" y1="2.73" x2="-3.35" y2="2.73" width="0.1524" layer="51"/>
+<wire x1="-2.64" y1="-0.08" x2="-2.64" y2="0.54" width="0.1524" layer="51"/>
+<wire x1="-2.64" y1="0.54" x2="-1.86" y2="0.54" width="0.1524" layer="51"/>
+<wire x1="-1.86" y1="0.54" x2="-1.86" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="-3.65" y1="-0.19775" x2="-3.65" y2="-3.52" width="0.1524" layer="21"/>
+<wire x1="-3.65" y1="-3.52" x2="-1.75" y2="-3.52" width="0.1524" layer="21"/>
+<wire x1="-1.75" y1="-3.52" x2="-1.75" y2="-4.42" width="0.1524" layer="21"/>
+<wire x1="3.65" y1="2.73" x2="3.35" y2="2.73" width="0.1524" layer="51"/>
+<wire x1="2.64" y1="-0.08" x2="2.64" y2="0.54" width="0.1524" layer="51"/>
+<wire x1="2.64" y1="0.54" x2="1.86" y2="0.54" width="0.1524" layer="51"/>
+<wire x1="1.86" y1="0.54" x2="1.86" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="3.65" y1="-0.19775" x2="3.65" y2="-3.52" width="0.1524" layer="21"/>
+<wire x1="3.65" y1="-3.52" x2="1.75" y2="-3.52" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="-3.52" x2="-1.75" y2="-3.52" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="-3.52" x2="1.75" y2="-4.42" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="-4.42" x2="-1.75" y2="-4.42" width="0.1524" layer="21"/>
+<pad name="3" x="-3.5" y="1.23" drill="1.5"/>
+<pad name="4" x="3.5" y="1.23" drill="1.5"/>
+<pad name="1" x="-2.25" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="2" x="2.25" y="-1.27" drill="1" diameter="1.6764"/>
+<text x="-2.69875" y="2.69875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-2.8125" y1="-0.08" x2="2.8125" y2="-0.08" width="0.1524" layer="21"/>
+<wire x1="-3.65" y1="-0.08" x2="-3.35" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="-3.35" y1="-0.08" x2="-2.64" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="-2.64" y1="-0.08" x2="-1.86" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="-1.86" y1="-0.08" x2="1.86" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="1.86" y1="-0.08" x2="2.64" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="2.64" y1="-0.08" x2="3.35" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="3.35" y1="-0.08" x2="3.65" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="-3.65" y1="-0.08" x2="-3.65" y2="2.73" width="0.1524" layer="51"/>
+<wire x1="-3.35" y1="-0.08" x2="-3.35" y2="2.73" width="0.1524" layer="51"/>
+<wire x1="3.65" y1="2.73" x2="3.65" y2="-0.08" width="0.1524" layer="51"/>
+<wire x1="3.35" y1="2.73" x2="3.35" y2="-0.08" width="0.1524" layer="51"/>
+</package>
+<package name="SW-TACTILE-6MM-PTH">
+<pad name="4" x="-2.25" y="-3.25" drill="1" diameter="1.6764"/>
+<pad name="2" x="2.25" y="-3.25" drill="1" diameter="1.6764"/>
+<text x="-2.54" y="4.445" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-4.445" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<pad name="3" x="-2.25" y="3.25" drill="1" diameter="1.6764"/>
+<pad name="1" x="2.25" y="3.25" drill="1" diameter="1.6764" first="yes"/>
+<wire x1="-1.2" y1="3" x2="1.2" y2="3" width="0.1524" layer="21"/>
+<wire x1="-1.2" y1="-3" x2="1.2" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.5" x2="3" y2="2.5" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2" width="0.1524" layer="21"/>
+<wire x1="-3" y1="2.5" x2="-3" y2="3" width="0.1524" layer="51"/>
+<wire x1="-3" y1="3" x2="-1.25" y2="3" width="0.1524" layer="51"/>
+<wire x1="3" y1="-2.5" x2="3" y2="-3" width="0.1524" layer="51"/>
+<wire x1="3" y1="-3" x2="1.25" y2="-3" width="0.1524" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="3" width="0.1524" layer="51"/>
+<wire x1="3" y1="3" x2="1.25" y2="3" width="0.1524" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="-3" width="0.1524" layer="51"/>
+<wire x1="-3" y1="-3" x2="-1.25" y2="-3" width="0.1524" layer="51"/>
+</package>
+<package name="SW-TACTILE-6MM-SMD">
+<text x="-2.54" y="6.0325" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-6.0325" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="-1.2" y1="3" x2="1.2" y2="3" width="0.1524" layer="21"/>
+<wire x1="-1.2" y1="-3" x2="1.2" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.5" x2="3" y2="2.5" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2" width="0.1524" layer="21"/>
+<wire x1="-3" y1="2.5" x2="-3" y2="3" width="0.1524" layer="51"/>
+<wire x1="-3" y1="3" x2="-1.25" y2="3" width="0.1524" layer="51"/>
+<wire x1="3" y1="-2.5" x2="3" y2="-3" width="0.1524" layer="51"/>
+<wire x1="3" y1="-3" x2="1.25" y2="-3" width="0.1524" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="3" width="0.1524" layer="51"/>
+<wire x1="3" y1="3" x2="1.25" y2="3" width="0.1524" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="-3" width="0.1524" layer="51"/>
+<wire x1="-3" y1="-3" x2="-1.25" y2="-3" width="0.1524" layer="51"/>
+<smd name="4" x="-2.25" y="-4.55" dx="1.4" dy="2.1" layer="1"/>
+<smd name="3" x="-2.25" y="4.55" dx="1.4" dy="2.1" layer="1"/>
+<smd name="2" x="2.25" y="-4.55" dx="1.4" dy="2.1" layer="1"/>
+<smd name="1" x="2.25" y="4.55" dx="1.4" dy="2.1" layer="1"/>
+</package>
+<package name="SW-TACTILE-6MM-UNI">
+<pad name="4" x="-2.25" y="-3.25" drill="1" diameter="1.6764" shape="offset" rot="R270"/>
+<pad name="2" x="2.25" y="-3.25" drill="1" diameter="1.6764" shape="offset" rot="R270"/>
+<text x="-2.54" y="6.0325" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-6.0325" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<pad name="3" x="-2.25" y="3.25" drill="1" diameter="1.6764" shape="offset" rot="R90"/>
+<pad name="1" x="2.25" y="3.25" drill="1" diameter="1.6764" shape="offset" rot="R90" first="yes"/>
+<wire x1="-1.2" y1="3" x2="1.2" y2="3" width="0.1524" layer="21"/>
+<wire x1="-1.2" y1="-3" x2="1.2" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.5" x2="3" y2="2.5" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2" width="0.1524" layer="21"/>
+<wire x1="-3" y1="2.5" x2="-3" y2="3" width="0.1524" layer="51"/>
+<wire x1="-3" y1="3" x2="-1.25" y2="3" width="0.1524" layer="51"/>
+<wire x1="3" y1="-2.5" x2="3" y2="-3" width="0.1524" layer="51"/>
+<wire x1="3" y1="-3" x2="1.25" y2="-3" width="0.1524" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="3" width="0.1524" layer="51"/>
+<wire x1="3" y1="3" x2="1.25" y2="3" width="0.1524" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="-3" width="0.1524" layer="51"/>
+<wire x1="-3" y1="-3" x2="-1.25" y2="-3" width="0.1524" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -1345,18 +1408,80 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SW-TACTILE-RA" prefix="SW" uservalue="yes">
+<deviceset name="SW-TACTILE-6MM-RA" prefix="SW" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SWITCH-SPST-NO-PUSHBUTTON" x="0" y="0"/>
 <gate name="G$2" symbol="PWR-GND-2" x="0" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
-<device name="" package="SW-TACTILE-RA">
+<device name="" package="SW-TACTILE-RA-PTH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$2" pin="GND@1" pad="3"/>
 <connect gate="G$2" pin="GND@2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SW-SPST-NO" prefix="SW" uservalue="yes">
+<description>SPST, off - momentary on</description>
+<gates>
+<gate name="G$1" symbol="SWITCH-SPST-NO-PUSHBUTTON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-TACTILE-6MM-PTH" package="SW-TACTILE-6MM-PTH">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TACTILE-RA-PTH" package="SW-TACTILE-RA-PTH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ALPS-SKC" package="SW-ALPS-SKC">
+<connects>
+<connect gate="G$1" pin="1" pad="S1"/>
+<connect gate="G$1" pin="2" pad="S2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHERRY-MX" package="SW-CHERRY-MX-ND">
+<connects>
+<connect gate="G$1" pin="1" pad="S1"/>
+<connect gate="G$1" pin="2" pad="S2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TACTILE-6MM-SMD" package="SW-TACTILE-6MM-SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TACTILE-6MM-UNI" package="SW-TACTILE-6MM-UNI">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
 </connects>
 <technologies>
 <technology name=""/>
