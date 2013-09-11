@@ -1619,13 +1619,13 @@
 <pin name="XTAL1" x="-27.94" y="20.32" visible="pin" length="middle"/>
 <pin name="XTAL2" x="-27.94" y="15.24" visible="pin" length="middle"/>
 <pin name="AVCC" x="-27.94" y="35.56" visible="pin" length="middle" direction="pwr"/>
-<pin name="UVCC" x="-27.94" y="-22.86" visible="pin" length="middle" direction="pwr"/>
+<pin name="UVCC" x="-27.94" y="-17.78" visible="pin" length="middle" direction="pwr"/>
 <pin name="UGND" x="-27.94" y="-30.48" visible="pin" length="middle" direction="pwr"/>
 <pin name="D+" x="-27.94" y="-27.94" visible="pin" length="middle"/>
 <pin name="D-" x="-27.94" y="-25.4" visible="pin" length="middle"/>
 <pin name="UCAP" x="-27.94" y="27.94" visible="pin" length="middle" direction="pas"/>
 <pin name="PE2/!HWB" x="27.94" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="UBUS" x="-27.94" y="-20.32" visible="pin" length="middle" direction="in"/>
+<pin name="VBUS" x="-27.94" y="-22.86" visible="pin" length="middle" direction="in"/>
 </symbol>
 <symbol name="IC-ATMEGA168-28">
 <description>ATmega168, 28-pin version</description>
@@ -2158,10 +2158,10 @@
 <connect gate="G$1" pin="PF5/ADC5" pad="38"/>
 <connect gate="G$1" pin="PF6/ADC6" pad="37"/>
 <connect gate="G$1" pin="PF7/ADC7" pad="36"/>
-<connect gate="G$1" pin="UBUS" pad="7"/>
 <connect gate="G$1" pin="UCAP" pad="6"/>
 <connect gate="G$1" pin="UGND" pad="5"/>
 <connect gate="G$1" pin="UVCC" pad="2"/>
+<connect gate="G$1" pin="VBUS" pad="7"/>
 <connect gate="G$1" pin="VCC" pad="14 34"/>
 <connect gate="G$1" pin="XTAL1" pad="17"/>
 <connect gate="G$1" pin="XTAL2" pad="16"/>
